@@ -10,6 +10,7 @@
     var_dump($_POST);
     $name = $_POST['name'];
     $surname = $_POST['surname'];
+    
 
     echo "Tu nombre es " . $name. "<br> Tu apellido es" .  $surname;
     ?>
